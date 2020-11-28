@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-intro: Abouuut aboutttt abbouuutt
+intro: Abouuut aboutttt abbouuutttooooooooooo
 ---
 
 ABOUT
