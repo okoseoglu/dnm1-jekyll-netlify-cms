@@ -25,7 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 theme: minima
 
 # minima theme settings
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to false to hide excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -34,13 +34,14 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.html
+header_pages:
+ - about.html
+ - contact.html
 
 # social links
 twitter_username: jekyllrb
 github_username:  jekyll
-rss: rss
+# rss: rss
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
