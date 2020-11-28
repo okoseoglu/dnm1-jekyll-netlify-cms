@@ -37,9 +37,6 @@ minima:
 #header_pages:
 # - about.html
 
-collections:
-  - staff_members
-
 # social links
 twitter_username: jekyllrb
 github_username:  jekyll
