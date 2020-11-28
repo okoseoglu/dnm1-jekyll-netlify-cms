@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 intro: Abouuut aboutttt abbouuutttooooooooooo
 ---
-
-ABOUT
+ABOUT abouttooooo
