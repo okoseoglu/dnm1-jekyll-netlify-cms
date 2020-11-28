@@ -19,11 +19,9 @@ collections: # A list of collections the CMS should be able to edit
   - label: "Page"
     name: "page"
     files:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - label: "About"
         name: "about"
         file: "/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string", tagname: "h1"}
           - {label: Body, name: intro, widget: markdown}
-         
