@@ -16,12 +16,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: "string", required: false}
   
-  - label: "Page"
-    name: "page"
-    files:
-      - label: "About"
-        name: "about"
-        file: "/about.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "page"
+    label: "Page"
+    folder: "_pages"
+    create: true 
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
