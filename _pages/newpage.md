@@ -1,6 +1,6 @@
 ---
 layout: page
 title: NewPage
-permalink: /npg/
+permalink: /npg
 ---
 New pageeeeeeeee
